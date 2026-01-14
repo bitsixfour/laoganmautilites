@@ -2,10 +2,11 @@
   "schemaVersion": 1,
   "id": "addon-template",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "raid farm template",
+  "description": "simple module for around 1700 emeralds/hour",
   "authors": [
-    "seasnail"
+    "seasnail (actual meteor guy)",
+    "bitsixfour <- retard"
   ],
   "contact": {
     "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
