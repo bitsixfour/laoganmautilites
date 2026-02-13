@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "addon-template",
   "version": "${version}",
-  "name": "raid farm template",
+  "name": "raid farm",
   "description": "simple module for around 1700 emeralds/hour",
   "authors": [
-    "seasnail (actual meteor guy)",
-    "bitsixfour <- retard"
+    "asdfasdfasdf",
+    "seanail"
   ],
   "contact": {
     "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
@@ -15,12 +15,10 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.raid.addon.AutoRaidFarm"
     ]
   },
-  "mixins": [
-    "addon-template.mixins.json"
-  ],
+  "mixins": [ ],
   "custom": {
     "meteor-client:color": "225,25,25",
     "modmenu": {
@@ -31,7 +29,10 @@
   },
   "depends": {
     "java": ">=21",
-    "minecraft": ["${mc_version}"],
-    "meteor-client": "*"
+    "minecraft": [
+      "1.21.10"
+    ],
+    "meteor-client": "*",
+    "fabric-api": "*"
   }
 }
