@@ -2,6 +2,7 @@ package com.raid.addon;
 
 import com.raid.addon.modules.AutomateRaid;
 import com.mojang.logging.LogUtils;
+import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.commands.Commands;
 import meteordevelopment.meteorclient.pathing.PathManagers;
