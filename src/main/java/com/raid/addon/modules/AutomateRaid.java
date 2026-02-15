@@ -15,7 +15,7 @@ public class AutomateRaid extends Module {
     }
 
     @EventHandler
-    private void onTick(TickEvent.Post event) { // Add the event parameter!
+    private void onTick(TickEvent.Post event) {
         if (mc.player != null && (mc.player.speed > 30)) {
             mc.player.setPose(EntityPose.STANDING);
         }
